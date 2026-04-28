@@ -1,0 +1,76 @@
+body {
+  font-size: large;
+  background-color: purple;
+  height: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background: white;
+  width: 350px;
+  padding: 20px;
+  /* justify-content: center; */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.mainone {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h3 {
+  margin: 0;
+}
+
+/* .mainone{
+
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+} */
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f5f5;
+  padding: 10px;
+  margin-top: 10px;
+  flex-flow: column;
+  gap: 10px;
+}
+.header input {
+  border: none;
+}
+.taskone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.icons button {
+  border: none;
+  padding: 16px 16px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+}
+.completed {
+  text-decoration: line-through;
+}
+.taskone button {
+  background-color: rgb(77, 61, 158);
+  color: #f5f5f5;
+}
+.one button {
+  background-color: rgb(160, 25, 146);
+}
